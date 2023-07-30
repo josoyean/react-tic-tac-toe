@@ -4,7 +4,6 @@ import Square from './Square'
 
 const Board = ({squares ,onClick})=>{
 
-
 const renderSquare =(i)=>{
         return <Square value={squares[i]} onClick={()=>
             {onClick(i)}
