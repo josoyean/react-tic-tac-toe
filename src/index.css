@@ -11,7 +11,13 @@ ol,li{
 }
 ol{
   height: 150px;
-  overflow: scroll;
+  overflow-x: none;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+}
+ol::-webkit-scrollbar{
+  display: none;
+  width: 0 !important;
 }
 .status{
   margin-bottom: 20px;
